@@ -113,7 +113,7 @@ p {
 .nav .toggle-collapse .toggle-icons {
 	display: flex;
 	justify-content: flex-end;
-	padding: 1.2rem 0;
+	padding: 1.4rem 0;
 }
 
 .nav .toggle-collapse .toggle-icons i {
@@ -675,7 +675,7 @@ footer.footer .move-up span:hover {
 	main .site-title .btn {
 		background: var(--bg-color);
 		box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-		margin-top: 0.5rem;
+		margin-top: 1rem;
 	}
 	main .site-title .btn:hover {
 		background: var(--sky);
