@@ -418,12 +418,12 @@ main .post-content .main-site-title {
 }
 
 .site-content .sidebar .newsletter {
-	padding-top: 1rem;
+	padding-top: 6rem;
 }
 
 .site-content .sidebar .newsletter .form-element {
 	padding: 1rem 2rem;
-	padding-bottom: 2rem;
+	/* padding-bottom: 2rem; */
 }
 
 .site-content .sidebar .newsletter .input-element {
