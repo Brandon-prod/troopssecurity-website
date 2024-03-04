@@ -105,6 +105,7 @@ p {
 .nav .toggle-collapse {
 	position: absolute;
 	top: 0%;
+	right: 2rem;
 	width: 90%;
 	cursor: pointer;
 	display: none;
@@ -117,7 +118,7 @@ p {
 }
 
 .nav .toggle-collapse .toggle-icons i {
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	color: var(--text-gray);
 }
 
@@ -208,6 +209,7 @@ h3 {
 	margin: 0.3rem;
 }
 main .site-title h1 {
+	font-weight: 700;
 	font-family: 'Kode Mono', sans-serif;
 }
 
@@ -666,11 +668,21 @@ footer.footer .move-up span:hover {
 /*              Viewport less then or equal to 520px            */
 
 @media only screen and (max-width: 520px) {
+	.nav {
+		min-height: 7vh;
+	}
+	.nav .toggle-collapse .toggle-icons {
+		padding: 1.025rem 0;
+	}
 	.nav .nav-brand {
 		display: none;
 	}
 	.nav .nav-brand-2 {
 		display: initial;
+		padding: 0.6rem 0;
+	}
+	main .site-title {
+		height: 93vh;
 	}
 	main .site-title .btn {
 		background: var(--bg-color);
