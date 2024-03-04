@@ -216,7 +216,7 @@ main .site-title h1 {
 main .site-img {
 	width: 10rem;
 	background-color: white;
-	border-radius: 10px;
+	border-radius: 3rem;
 }
 
 main .site-title .btn {
@@ -344,6 +344,9 @@ main .site-content .post-content > .post-image > div {
 main .site-content .post-content > .post-image .img {
 	width: 100%;
 	transition: all 1s ease;
+}
+main .site-content .post-content > .post-image .main-site-img {
+	border-radius: 3rem;
 }
 
 /* main .site-content .post-content > .post-image .img:hover {
