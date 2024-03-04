@@ -672,10 +672,10 @@ footer.footer .move-up span:hover {
 
 @media only screen and (max-width: 520px) {
 	.nav {
-		min-height: 7vh;
+		min-height: 8vh;
 	}
 	.nav .toggle-collapse .toggle-icons {
-		padding: 1.025rem 0;
+		padding: 1.125rem 0;
 	}
 	.nav .nav-brand {
 		display: none;
@@ -685,7 +685,7 @@ footer.footer .move-up span:hover {
 		padding: 0.6rem 0;
 	}
 	main .site-title {
-		height: 93vh;
+		height: 92vh;
 	}
 	main .site-title .btn {
 		background: var(--bg-color);
@@ -720,6 +720,9 @@ footer.footer .move-up span:hover {
 		border-radius: 0% !important; */
 	}
 
+	main .site-content .post-content > .post-image .main-site-img {
+		border-radius: 15px;
+	}
 	/* .site-content .post-content > .post-image .post-info {
 		display: none;
 	} */
