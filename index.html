@@ -84,7 +84,7 @@
 							<a href="#about-us">About Us</a>
 						</li>
 						<li class="nav-link">
-							<a href="#category-list">Products and Services</a>
+							<a href="#site-main-content">Products and Services</a>
 						</li>
 						<li class="nav-link">
 							<a href="#tss-press-office">TSS Press Office</a>
@@ -220,10 +220,13 @@
 			<!-- ---------------------- Site Content -------------------------->
 
 			<section class="container" id="site-main-content">
+				<hr data-aos="fade-right" data-aos-delay="300" />
 				<div class="site-content">
 					<div class="posts">
+						<h2 data-aos="fade-right" data-aos-delay="300">Services</h2>
+						<hr data-aos="fade-right" data-aos-delay="300" />
 						<div class="post-content" data-aos="zoom-in" data-aos-delay="200">
-							<div class="post-image">
+							<div class="post-image post-image-service">
 								<div>
 									<img
 										src="./assets/Blog-post/security-guard.jpg"
@@ -237,9 +240,9 @@
 								</div>
 							</div>
 						</div>
-						<hr />
+						<hr data-aos="fade-right" data-aos-delay="300" />
 						<div class="post-content" data-aos="zoom-in" data-aos-delay="200">
-							<div class="post-image">
+							<div class="post-image post-image-service">
 								<div>
 									<img
 										src="./assets/Blog-post/security6.jpg"
@@ -252,9 +255,9 @@
 								</div>
 							</div>
 						</div>
-						<hr />
+						<hr data-aos="fade-right" data-aos-delay="300" />
 						<div class="post-content" data-aos="zoom-in" data-aos-delay="200">
-							<div class="post-image">
+							<div class="post-image post-image-service">
 								<div>
 									<img
 										src="./assets/Blog-post/security2.jpg"
@@ -268,8 +271,9 @@
 								</div>
 							</div>
 						</div>
+						<hr data-aos="fade-right" data-aos-delay="300" />
 						<div class="post-content" data-aos="zoom-in" data-aos-delay="200">
-							<div class="post-image">
+							<div class="post-image post-image-service">
 								<div>
 									<img
 										src="./assets/Blog-post/security5.jpg"
@@ -283,12 +287,28 @@
 								</div>
 							</div>
 						</div>
-						<hr />
+						<hr data-aos="fade-right" data-aos-delay="300" />
+						<div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+							<div class="post-image post-image-service">
+								<div>
+									<img
+										src="./assets/Blog-post/security3.jpg"
+										class="img main-site-img"
+										alt="blog1"
+									/>
+								</div>
+
+								<div class="main-site-title">
+									<a>Defense and Deterrence</a>
+								</div>
+							</div>
+						</div>
+						<hr data-aos="fade-right" data-aos-delay="300" />
 					</div>
 
 					<aside class="sidebar" id="category-list">
 						<div class="category">
-							<h2>Products</h2>
+							<h2 data-aos="fade-right" data-aos-delay="300">Products</h2>
 							<ul class="category-list">
 								<li
 									class="list-items"
@@ -329,7 +349,9 @@
 						</div>
 
 						<div class="popular-post" id="tss-press-office">
-							<h2>TSS Press Office</h2>
+							<h2 data-aos="fade-right" data-aos-delay="300">
+								TSS Press Office
+							</h2>
 							<div class="post-content" data-aos="flip-up" data-aos-delay="200">
 								<div class="post-image">
 									<div>
@@ -436,52 +458,49 @@
 
 						<!-- Contact Us start -->
 
-						<div
-							class="newsletter"
-							id="quote"
-							data-aos="fade-up"
-							data-aos-delay="300"
-						>
-							<h4 class="sent-notification"></h4>
-							<form action="sendEmail.php" method="POST" class="myForm">
-								<h2>Get A Quotation</h2>
-								<div class="form-element">
-									<input
-										type="text"
-										class="input-element"
-										id="name"
-										name="name"
-										placeholder="Full Name"
-										autocomplete="name"
-										required
-									/>
-									<input
-										type="email"
-										class="input-element"
-										id="email"
-										name="email"
-										placeholder="Email"
-										autocomplete="email"
-										required
-									/>
-									<input
-										type="text"
-										class="input-element"
-										id="subject"
-										name="subject"
-										placeholder="Subject"
-										required
-									/>
-									<textarea
-										class="input-element"
-										id="message"
-										name="message"
-										rows="5"
-										placeholder="Write your message..."
-									></textarea>
-									<button type="submit" class="btn form-btn">Submit</button>
-								</div>
-							</form>
+						<div id="quote">
+							<div class="newsletter" data-aos="fade-up" data-aos-delay="200">
+								<h4 class="sent-notification"></h4>
+								<form action="sendEmail.php" method="POST" class="myForm">
+									<h2>Get A Quotation</h2>
+									<div class="form-element">
+										<input
+											type="text"
+											class="input-element"
+											id="name"
+											name="name"
+											placeholder="Full Name"
+											autocomplete="name"
+											required
+										/>
+										<input
+											type="email"
+											class="input-element"
+											id="email"
+											name="email"
+											placeholder="Email"
+											autocomplete="email"
+											required
+										/>
+										<input
+											type="text"
+											class="input-element"
+											id="subject"
+											name="subject"
+											placeholder="Subject"
+											required
+										/>
+										<textarea
+											class="input-element"
+											id="message"
+											name="message"
+											rows="5"
+											placeholder="Write your message..."
+										></textarea>
+										<button type="submit" class="btn form-btn">Submit</button>
+									</div>
+								</form>
+							</div>
 						</div>
 
 						<!-- Contact Us end -->
@@ -558,7 +577,7 @@
 					></a>
 				</h4>
 			</div>
-			<div class="move-up">
+			<div class="move-up" data-aos="fade-left" data-aos-delay="200">
 				<span><i class="fas fa-arrow-circle-up fa-3x"></i></span>
 			</div>
 		</footer>
